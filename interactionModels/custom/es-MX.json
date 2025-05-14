@@ -1,0 +1,73 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "tipoPregunta",
+              "type": "TIPO_PREGUNTA"
+            }
+          ],
+          "name": "PreguntaIntent",
+          "samples": [
+            "cuál es tu {tipoPregunta}",
+            "dime tu {tipoPregunta}",
+            "quiero saber tu {tipoPregunta}",
+            "cuéntame tu {tipoPregunta}",
+            "qué {tipoPregunta} es",
+            "sabes tu {tipoPregunta}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "color favorito"
+              }
+            },
+            {
+              "name": {
+                "value": "artista"
+              }
+            },
+            {
+              "name": {
+                "value": "carrera"
+              }
+            },
+            {
+              "name": {
+                "value": "creador"
+              }
+            }
+          ],
+          "name": "TIPO_PREGUNTA"
+        }
+      ],
+      "invocationName": "saluda kalid"
+    }
+  }
+}
